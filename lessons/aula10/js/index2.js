@@ -30,4 +30,4 @@ function meuEscopo () {
 
     form.addEventListener('submit', recebeEventoForm); //adiciona um 'escutador de eventos'
 }
-meuEscopo();
+meuEscopo(); //executa a função

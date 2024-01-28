@@ -1,0 +1,31 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    align-self: center;
+    width: 500px;
+    height: 500px;
+    
+    padding: 12px;
+    margin: 32px;
+    row-gap: 12px;
+    column-gap: 12px;
+}
+
+.login,
+.message_postal,
+.menu {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
