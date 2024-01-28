@@ -25,7 +25,7 @@ function meuEscopo () {
 
         console.log(pessoas); //aparece o array pessoas.
 
-        resultado.innerHTML += `<p>${nome.value} ${sobrenome.value} + ${peso.value} ${altura.value}</p>`
+        resultado.innerHTML += `<p>Nome:${nome.value} Sobrenome:${sobrenome.value} Peso:${peso.value} Altura:${altura.value}</p>`
     }
 
     form.addEventListener('submit', recebeEventoForm); //adiciona um 'escutador de eventos'
